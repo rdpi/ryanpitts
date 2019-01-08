@@ -1,3 +1,9 @@
+
+body{
+  font-family: "Staatliches" !important;
+  background: #3d425c !important;
+}
+
 .App {
   text-align: center;
 }
@@ -29,4 +35,106 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  background: #1c1e2a ;
+}
+
+.footer {
+  background: #1c1e2a ;
+}
+
+.background{
+  background-image: url('background.jpg');
+  background-size: cover;
+  height: 89vh;
+  overflow: hidden;
+}
+
+#hireme{
+  background: #aa4234 !important;
+}
+
+.menu-item{
+  display: block;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.menu-item:hover{
+  color: white;
+  text-decoration: none;
+  background: #3d425c;
+}
+
+.content{
+  background: #3d425c !important;
+}
+
+hr{
+  color: white;
+  background: white;
+}
+
+/***
+BURGER MENU STYLING
+***/
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: relative;
+  width: 3vh;
+  height: 3vh;
+  margin: 20px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #ffffff;
+  height: .3vh !important;
+  border-radius: 10px;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #6f79a8;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #1c1e2a;
+  font-size: 1.15em;
+  padding-top: 2em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
 }
