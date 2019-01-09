@@ -1,40 +1,7 @@
 
 body{
-  font-family: "Staatliches" !important;
+  font-family: "Raleway" !important;
   background: #3d425c !important;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .header {
@@ -43,6 +10,12 @@ body{
 
 .footer {
   background: #1c1e2a ;
+  border-top: .1em solid #aa4234 !important;
+}
+
+.footercontent{
+  margin: .5em;
+  color: white;
 }
 
 .background{
@@ -75,6 +48,13 @@ body{
 hr{
   color: white;
   background: white;
+}
+
+.progress{
+  height: 1.3em !important;
+  font-size: 1em !important;
+  font-weight: bold;
+  border-radius: 1em !important;
 }
 
 /***

@@ -1,16 +1,19 @@
 import React from 'react';
-import { Jumbotron } from 'reactstrap';
+import { Container } from 'reactstrap';
+import FadeIn from 'react-fade-in';
 
 const Education = () => (
-  <Jumbotron className="text-center text-white content">
-    <h1>Education</h1>
+  <Container className="text-center text-white content my-3">
+  <FadeIn>
+    <h1><b>Education</b></h1>
     <hr />
     <img className="img-fluid" src="images/dal.png" alt="Dalhousie University" />
-    <h2>Bachelor of Computer Science</h2>
+    <h2 className="font-weight-bold">Bachelor of Computer Science</h2>
     <h3>2013-2018</h3>
-    <h2>Certificate in Communications Technology and Cybersecurity</h2>
+    <h2 className="font-weight-bold">Certificate in Communications Technology and Cybersecurity</h2>
     <h3>2018</h3>
-  </Jumbotron>
+    </FadeIn>
+  </Container>
 );
 
 export default Education;

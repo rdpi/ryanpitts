@@ -1,13 +1,16 @@
 import React from 'react';
-import { Jumbotron, Button } from 'reactstrap';
+import { Button } from 'reactstrap';
+import FadeIn from 'react-fade-in';
 
 const Welcome = () => (
-  <Jumbotron className="background rounded-0 text-center d-flex flex-column align-items-center">
-    <h1 className="display-1 text-white">Hello, I am</h1>
-    <h2 className="display-4 text-black">Ryan Pitts</h2>
-    <h2 className="display-5 text-white">Full Stack Web Developer from Nova Scotia, Canada</h2>
-    <Button id="hireme">HIRE ME  ⮞  </Button>
-  </Jumbotron>
+  <div className="background rounded-0 text-center d-flex align-items-center justify-content-center">
+    <FadeIn>
+      <h1 className="display-3 text-white font-weight-bold mb-4">Hello, I am</h1>
+      <h2 className="display-4 text-black font-weight-bold my-4">Ryan Pitts</h2>
+      <h3 className="display-5 text-white font-weight-bold my-4">Full Stack Web Developer from Nova Scotia, Canada</h3>
+      <Button id="hireme" className="mt-2 font-weight-bold">HIRE ME  ⮞  </Button>
+    </FadeIn>
+  </div>
 );
 
 export default Welcome;
