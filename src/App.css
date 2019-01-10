@@ -41,6 +41,10 @@ body{
   background: #3d425c;
 }
 
+.name{
+  color: white;
+}
+
 .content{
   background: #3d425c !important;
 }
