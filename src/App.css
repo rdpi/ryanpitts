@@ -16,6 +16,13 @@ body{
 .footercontent{
   margin: .5em;
   color: white;
+  text-decoration: none;
+}
+
+.footercontent:hover{
+  text-decoration: none;
+  color: #aa4234;
+  text-decoration: none;
 }
 
 .background{
