@@ -10,7 +10,7 @@ const Education = () => (
     <img className="img-fluid" src="images/dal.png" alt="Dalhousie University" />
     <h2 className="font-weight-bold">Bachelor of Computer Science</h2>
     <h3>2013-2018</h3>
-    <h2 className="font-weight-bold">Certificate in Communications Technology and Cybersecurity</h2>
+    <h2 className="font-weight-bold">Certificate in Communications Technologies and Cyber Security</h2>
     <h3>2018</h3>
     </FadeIn>
   </Container>

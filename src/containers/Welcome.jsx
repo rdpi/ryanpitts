@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'reactstrap';
 import FadeIn from 'react-fade-in';
 import Hire from '../components/Hire';
 

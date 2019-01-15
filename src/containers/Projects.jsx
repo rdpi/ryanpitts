@@ -14,7 +14,7 @@ const Projects = () => (
       <a href="http://clak.fun" alt="http://clak.fun" target="_blank" rel="noopener noreferrer">http://clak.fun</a>
       )
     </h2>
-    <img src="images/clak.png" alt="Clak" className="img-fluid w-75 my-2" />
+    <img src="images/clak.jpg" alt="Clak" className="img-fluid w-75 my-2" />
     <p>
       <a href="http://clak.fun" target="_blank" rel="noopener noreferrer">
         Clak
@@ -33,8 +33,8 @@ const Projects = () => (
     {' | '}
       <a href="https://github.com/rdpi/clak-api" target="_blank" rel="noopener noreferrer">Back End</a>
     </p>
-
-    More to come!
+    <b>-</b>
+    <b>More to come!</b>
     </FadeIn>
   </Container>
 

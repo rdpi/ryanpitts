@@ -81,7 +81,7 @@ class Skills extends Component {
         },
         {
           name: 'SQL',
-          value: 50,
+          value: 55,
         },
       ],
       otherskills: [
@@ -114,14 +114,14 @@ class Skills extends Component {
           <Col xs="6">
             {webskills.map(skill => (
               <div>
-                <Progress animated color="danger" value={skill.value} className="my-4"><span className="text-left ml-3">{skill.name}</span></Progress>
+                <Progress color="danger" value={skill.value} className="my-4"><span className="text-left ml-3">{skill.name}</span></Progress>
               </div>
             ))}
           </Col>
           <Col xs="6">
             {otherskills.map(skill => (
               <div>
-                <Progress animated color="danger" value={skill.value} className="my-4"><span className="text-left ml-3">{skill.name}</span></Progress>
+                <Progress color="danger" value={skill.value} className="my-4"><span className="text-left ml-3">{skill.name}</span></Progress>
               </div>
             ))}
           </Col>
