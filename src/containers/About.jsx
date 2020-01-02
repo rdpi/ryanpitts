@@ -4,7 +4,7 @@ import { Jumbotron } from 'reactstrap';
 const About = () => (
   <Jumbotron>
     <h1>About</h1>
-    <p>I am a Software Web Developer from Halifax Nova Scotia.</p>
+    <p>I am a Software Developer from Halifax Nova Scotia.</p>
   </Jumbotron>
 );
 
