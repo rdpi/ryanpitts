@@ -9,6 +9,14 @@ class Skills extends Component {
     this.state = {
       webskills: [
         {
+          name: 'JavaScript',
+          value: 0,
+        },
+        {
+          name: 'HTML/CSS',
+          value: 0,
+        },
+        {
           name: 'React',
           value: 0,
         },
@@ -25,11 +33,11 @@ class Skills extends Component {
           value: 0,
         },
         {
-          name: 'MongoDB',
+          name: 'SQL',
           value: 0,
         },
         {
-          name: 'SQL',
+          name: 'MongoDB',
           value: 0,
         },
       ],
@@ -60,6 +68,14 @@ class Skills extends Component {
     this.setState({
       webskills: [
         {
+          name: 'JavaScript',
+          value: 90,
+        },
+        {
+          name: 'HTML/CSS',
+          value: 95,
+        },
+        {
           name: 'React',
           value: 90,
         },
@@ -77,21 +93,21 @@ class Skills extends Component {
         },
         {
           name: 'MongoDB',
-          value: 90,
+          value: 70,
         },
         {
           name: 'SQL',
-          value: 55,
+          value: 85,
         },
       ],
       otherskills: [
         {
           name: 'Java',
-          value: 75,
+          value: 60,
         },
         {
           name: 'C',
-          value: 85,
+          value: 70,
         },
         {
           name: 'Python',
@@ -99,7 +115,7 @@ class Skills extends Component {
         },
         {
           name: 'Shell Scripting',
-          value: 75,
+          value: 65,
         },
       ]
     });
